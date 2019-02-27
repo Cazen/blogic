@@ -1,6 +1,5 @@
 package app.metatron.flows.bistel.model;
 
-import java.lang.reflect.Field;
 import java.util.Date;
 
 import lombok.Getter;
