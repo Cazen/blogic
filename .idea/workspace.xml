@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94dfed23-6c89-4d58-9c39-848b7ca04459" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogic.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/BistelLogic1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/BistelLogic1Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/function/AlarmLimitAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/function/AlarmLimitAverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/function/CustomMapSplitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/function/CustomMapSplitter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/model/RawDataVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/model/RawDataVO.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BistelLogic1Test.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/BistelLogic1Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="29" column="39" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="39" />
+            <state relative-caret-position="532">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,59 +37,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlarmLimitAverage.java" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/function/AlarmLimitAverage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="757">
-              <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="713">
+              <caret line="57" column="96" lean-forward="true" selection-start-line="57" selection-start-column="96" selection-end-line="57" selection-end-column="96" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetAzureProperties.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/util/GetAzureProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RawDataVO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/model/RawDataVO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SplitDataVO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/model/SplitDataVO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlatMapSplitter.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/function/FlatMapSplitter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="18" column="111" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="111" />
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,11 +58,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomMapSplitter.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/model/RawDataVO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/model/SplitDataVO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/function/CustomMapSplitter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+            <state relative-caret-position="608">
+              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,7 +106,14 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>trigger</find>
+      <find>Double</find>
+      <find>p1SensorValue</find>
+      <find>java.lang.NoSuchFieldException</find>
+      <find>raw</find>
     </findStrings>
+    <replaceStrings>
+      <replace>double</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -136,18 +127,13 @@
         <option value="$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/model/GetAzureProperties.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/BistelLogicTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/function/MapSplitter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/function/CustomMapSplitter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/BistelLogic1Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/model/RawDataVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/function/CustomMapSplitter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/function/FlatMapSplitter.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/function/AlarmLimitAverage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/BistelLogic1Test.java" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -156,14 +142,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1680" />
+    <option name="y" value="23" />
+    <option name="width" value="2463" />
+    <option name="height" value="1375" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -171,6 +154,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -227,14 +211,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551255304922" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551341740750" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -255,56 +237,47 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration name="BistelLogic1Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.metatron.flows.bistel.BistelLogic1Test" />
+      <module name="blogic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.metatron.flows.bistel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
+    <configuration default="true" type="TestNG">
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BistelLogic1Test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="projectSyncType">
@@ -333,266 +306,55 @@
       <workItem from="1551273985524" duration="774000" />
       <workItem from="1551274793215" duration="445000" />
       <workItem from="1551275261029" duration="1093000" />
+      <workItem from="1551327996386" duration="7531000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10754000" />
+    <option name="totallyTimeSpent" value="18285000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1680" y="23" width="2463" height="1375" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17100371" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CheckStyle" order="7" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32970452" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32969603" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CheckStyle" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/BistelLogic1Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="29" column="39" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/util/GetAzureProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/model/RawDataVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/model/SplitDataVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/function/FlatMapSplitter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="18" column="111" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="111" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/function/CustomMapSplitter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/function/AlarmLimitAverage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/BistelLogic1Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/function/AlarmLimitAverage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/util/GetAzureProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/model/RawDataVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="37" column="3" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/model/SplitDataVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/function/FlatMapSplitter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="18" column="111" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="111" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/function/CustomMapSplitter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/BistelLogic1Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="29" column="39" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/util/GetAzureProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/model/RawDataVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="37" column="3" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/model/SplitDataVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/function/FlatMapSplitter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="18" column="111" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="111" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/function/CustomMapSplitter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/function/AlarmLimitAverage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.7.2/flink-streaming-java_2.11-1.7.2-sources.jar!/org/apache/flink/streaming/api/datastream/SplitStream.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.7.2/flink-streaming-java_2.11-1.7.2-sources.jar!/org/apache/flink/streaming/api/datastream/KeyedStream.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.7.2/flink-streaming-java_2.11-1.7.2-sources.jar!/org/apache/flink/streaming/api/datastream/StreamProjection.java" />
@@ -604,10 +366,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.7.2/flink-streaming-java_2.11-1.7.2-sources.jar!/org/apache/flink/streaming/api/functions/KeyedProcessFunction.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.7.2/flink-core-1.7.2-sources.jar!/org/apache/flink/api/common/functions/AbstractRichFunction.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.7.2/flink-streaming-java_2.11-1.7.2-sources.jar!/org/apache/flink/streaming/api/functions/ProcessFunction.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.4/lombok-1.18.4.jar!/lombok/Getter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/util/GetAzureProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
+        <state relative-caret-position="133">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/reflect/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="1059" selection-start-line="1059" selection-end-line="1059" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/model/RawDataVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -616,31 +405,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/model/SplitDataVO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="304">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.7.2/flink-streaming-java_2.11-1.7.2-sources.jar!/org/apache/flink/streaming/api/functions/KeyedProcessFunction.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.7.2/flink-core-1.7.2-sources.jar!/org/apache/flink/api/common/functions/AbstractRichFunction.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.7.2/flink-streaming-java_2.11-1.7.2-sources.jar!/org/apache/flink/streaming/api/functions/ProcessFunction.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/function/FlatMapSplitter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="18" column="111" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="111" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/BistelLogic1Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="29" column="39" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="39" />
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -649,25 +425,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/function/CustomMapSplitter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.4/lombok-1.18.4.jar!/lombok/Getter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/model/RawDataVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="608">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -676,8 +435,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/function/AlarmLimitAverage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="757">
-          <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+        <state relative-caret-position="713">
+          <caret line="57" column="96" lean-forward="true" selection-start-line="57" selection-start-column="96" selection-end-line="57" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/metatron/flows/bistel/BistelLogic1Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

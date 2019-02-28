@@ -1,49 +1,75 @@
 package app.metatron.flows.bistel.function;
 
-import app.metatron.flows.bistel.model.RawDataVO;
-import org.apache.flink.api.common.functions.RichFlatMapFunction;
 import org.apache.flink.api.common.state.ValueState;
 import org.apache.flink.api.common.state.ValueStateDescriptor;
 import org.apache.flink.api.common.typeinfo.TypeHint;
 import org.apache.flink.api.common.typeinfo.TypeInformation;
 import org.apache.flink.configuration.Configuration;
+import org.apache.flink.streaming.api.functions.co.RichCoFlatMapFunction;
 import org.apache.flink.util.Collector;
 
+import java.util.Collections;
 import java.util.List;
 
-public class AlarmLimitAverage extends RichFlatMapFunction<RawDataVO, Double> {
-    private ValueState<List<RawDataVO>> rawDataListState;
-    private ValueState<Boolean> previousState;
+import app.metatron.flows.bistel.model.RawDataVO;
+import app.metatron.flows.bistel.model.SplitDataVO;
 
-    @Override
-    public void open(Configuration config) {
-        ValueStateDescriptor<List<RawDataVO>> rawDataListStateDescriptor = new ValueStateDescriptor<>(
-                // state name
-                "Rawdata-List",
-                // type information of state
-                TypeInformation.of(new TypeHint<List<RawDataVO>>() {
-                }));
-        ValueStateDescriptor<Boolean> previousStateDescriptor = new ValueStateDescriptor<>("Previous-State", Boolean.class);
+public class AlarmLimitAverage extends RichCoFlatMapFunction<SplitDataVO, SplitDataVO, Double> {
+  private ValueState<List<SplitDataVO>> splitDataListState;
+  private ValueState<Boolean> previousState;
 
-        rawDataListState = getRuntimeContext().getState(rawDataListStateDescriptor);
-        previousState = getRuntimeContext().getState(previousStateDescriptor);
+  @Override
+  public void open(Configuration config) {
+    ValueStateDescriptor<List<SplitDataVO>> splitDataListStateDescriptor = new ValueStateDescriptor<>(
+        // state name
+        "Rawdata-List",
+        // type information of state
+        TypeInformation.of(new TypeHint<List<SplitDataVO>>() {
+        }));
+    ValueStateDescriptor<Boolean> previousStateDescriptor = new ValueStateDescriptor<>("Previous-State", Boolean.class);
+
+    splitDataListState = getRuntimeContext().getState(splitDataListStateDescriptor);
+    previousState = getRuntimeContext().getState(previousStateDescriptor);
+  }
+
+  @Override
+  public void flatMap1(SplitDataVO splitDataVO, Collector<Double> out) throws Exception {
+    Boolean previous = previousState.value();
+    List<SplitDataVO> rawDataList = splitDataListState.value();
+
+    Boolean current = splitDataVO.getSensorValue() > 0.5;
+
+    if(previous && current) {// True -> True
+      //Do Nothing
+    } else if(previous && !current) {// True -> False
+      //Calculate
+      out.collect(calcAverageFromList(rawDataList));
+    } else if(!previous && current) {// False -> True
+      //Do Nothing
+
+    } else if(!previous && !current) {// False -> False
+      //Remove current list(not needed data)
+      splitDataListState.clear();
     }
+    previousState.update(current);
+  }
 
-    @Override
-    public void flatMap(RawDataVO rawDataVO, Collector<Double> out) throws Exception {
-        Boolean previous = previousState.value();
-        List<RawDataVO> rawDataList = rawDataListState.value();
-        Boolean current = rawDataVO.getP1SensorValue() > 0.5 ? true : false;
-
-        rawDataList.add(rawDataVO);
-        if (previous != null) {
-            //will be different when false -> true and true -> false
-            if(current != previous) {
-                Double sum = rawDataList.stream().mapToDouble(RawDataVO::getP1SensorValue).sum();
-                out.collect(sum / rawDataList.size());
-            } else { // means that true -> true and false -> false
-
-            }
-        }
+  private Double calcAverageFromList(List<SplitDataVO> rawDataList) {
+    long warnCount = rawDataList.stream().map(SplitDataVO::getSensorValue).filter(t -> t > 0.5).count();
+    if(warnCount > 0) {
+      return rawDataList.stream().mapToDouble(SplitDataVO::getSensorValue).sum() / rawDataList.size();
+    } else {
+      return rawDataList.stream().filter(t -> t.getSensorValue() > 0.5).mapToDouble(SplitDataVO::getSensorValue).sum() / warnCount;
     }
+  }
+
+  @Override
+  public void flatMap2(SplitDataVO splitDataVO, Collector<Double> out) throws Exception {
+    List<SplitDataVO> rawDataList = splitDataListState.value();
+    if (rawDataList == null) {
+      rawDataList = Collections.emptyList();
+    }
+    rawDataList.add(splitDataVO);
+    splitDataListState.update(rawDataList);
+  }
 }
