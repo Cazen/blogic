@@ -10,7 +10,7 @@ import java.util.Date;
 import app.metatron.flows.bistel.model.RawDataVO;
 
 public class CustomMapSplitter implements MapFunction<String, RawDataVO> {
-  final static DateFormat DATEFORMATTER = new SimpleDateFormat("yyyy-mm-dd HH:mm:ss");
+  final static DateFormat DATEFORMATTER = new SimpleDateFormat("yyyy-mm-dd HH:mm:ss.SSS");
 
   Double p1SensorValue = 0d;
   Double p2SensorValue = 0d;
@@ -25,8 +25,11 @@ public class CustomMapSplitter implements MapFunction<String, RawDataVO> {
   @Override
   public RawDataVO map(String input) throws Exception {
     String[] inputSplit = input.split(",");
+//    System.out.println(inputSplit[0]);
+//    Date date = DATEFORMATTER.parse(inputSplit[0]);
 
-    RawDataVO rawDataVO = new RawDataVO(inputSplit[0].length() > 1 ? DATEFORMATTER.parse(inputSplit[0]) : new Date(),
+    RawDataVO rawDataVO = new RawDataVO(inputSplit[0].length() > 10 ? DATEFORMATTER.parse(inputSplit[0]) : new Date(),
+//    RawDataVO rawDataVO = new RawDataVO(date,
                                         p1SensorValue, p2SensorValue, p3SensorValue, p4SensorValue, p5SensorValue,
                                         p6SensorValue, p7SensorValue, p8SensorValue, p9SensorValue);
 

@@ -15,10 +15,11 @@ public class FlatMapSplitter implements FlatMapFunction<String, SplitDataVO> {
   public void flatMap(String input, Collector<SplitDataVO> out) throws Exception {
     String[] inputSplit = input.split(",");
 
-    for (int i = 1; i <= input.length(); i++) {
-      out.collect(new SplitDataVO(inputSplit[0].length() > 1 ? DATEFORMATTER.parse(inputSplit[0]) : new Date(),
-                                  inputSplit[1].length() > 1 ? "P" + i                            : "",
-                                  inputSplit[2].length() > 1 ? Double.parseDouble(inputSplit[i])  : 0));
+    for (int i = 1; i < inputSplit.length; i++) {
+      SplitDataVO splitDataVO = new SplitDataVO(inputSplit[0].length() > 1 ? DATEFORMATTER.parse(inputSplit[0]) : new Date(),
+              inputSplit[1].length() > 1 ? "P" + i                            : "",
+              inputSplit[2].length() > 1 ? Double.parseDouble(inputSplit[i])  : 0);
+      out.collect(splitDataVO);
     }
   }
 }
